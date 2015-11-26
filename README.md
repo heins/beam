@@ -8,7 +8,7 @@ For Arduino compatible microcontrollers like TheSpaceSatellite or Merkurboard (O
   counterpart : URL of the MQTT-Server or peer
   protocol : MQTT, CoAP, HTTP-REST get/post
 
-beam.config(counterpart, protocol)
+'''beam.config(counterpart, protocol)'''
 
 ## Send
 
