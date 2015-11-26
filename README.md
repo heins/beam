@@ -11,7 +11,7 @@ Configure Beam
   
   protocol : MQTT, CoAP, HTTP-REST get/post
 
-```beam.config(counterpart, protocol)```
+```beam.config(counterpart, protocol);```
 
 ## Send
 
