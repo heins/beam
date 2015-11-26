@@ -5,6 +5,8 @@ For Arduino compatible microcontrollers like TheSpaceSatellite or Merkurboard (O
 
 ## Config
 
+Configure Beam
+
   counterpart : URL of the MQTT-Server or peer
   protocol : MQTT, CoAP, HTTP-REST get/post
 
@@ -12,11 +14,20 @@ For Arduino compatible microcontrollers like TheSpaceSatellite or Merkurboard (O
 
 ## Send
 
+Send a message to the couterpart.
+
   topic : MQTT topic or CoAP resource
   payload : message (plain/text, json, XML, ...)
 
-beam(topic, payload);
+```beam(topic, payload);```
+
+or
+
+```beam(coutnerpart, protcoll, topic, payload);```
+
 
 ## Receive
 
-message = beam(topic);
+Receive a message from the counterpart.
+
+```message = beam(topic);```
